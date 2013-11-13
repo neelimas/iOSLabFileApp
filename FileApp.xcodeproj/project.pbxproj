@@ -21,6 +21,8 @@
 		CEDAC6C01833E6AD0074911E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDAC6A21833E6AC0074911E /* UIKit.framework */; };
 		CEDAC6C81833E6AD0074911E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEDAC6C61833E6AD0074911E /* InfoPlist.strings */; };
 		CEDAC6CA1833E6AD0074911E /* FileAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAC6C91833E6AD0074911E /* FileAppTests.m */; };
+		CEDAC6D51834069D0074911E /* FAMyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAC6D41834069D0074911E /* FAMyDocument.m */; };
+		CEDAC6D61834069D0074911E /* FAMyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDAC6D41834069D0074911E /* FAMyDocument.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		CEDAC6C51833E6AD0074911E /* FileAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FileAppTests-Info.plist"; sourceTree = "<group>"; };
 		CEDAC6C71833E6AD0074911E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEDAC6C91833E6AD0074911E /* FileAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileAppTests.m; sourceTree = "<group>"; };
+		CEDAC6D31834069D0074911E /* FAMyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAMyDocument.h; sourceTree = "<group>"; };
+		CEDAC6D41834069D0074911E /* FAMyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAMyDocument.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 				CEDAC6B41833E6AC0074911E /* FAViewController.m */,
 				CEDAC6B61833E6AC0074911E /* Images.xcassets */,
 				CEDAC6A51833E6AC0074911E /* Supporting Files */,
+				CEDAC6D31834069D0074911E /* FAMyDocument.h */,
+				CEDAC6D41834069D0074911E /* FAMyDocument.m */,
 			);
 			path = FileApp;
 			sourceTree = "<group>";
@@ -251,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDAC6AB1833E6AC0074911E /* main.m in Sources */,
+				CEDAC6D51834069D0074911E /* FAMyDocument.m in Sources */,
 				CEDAC6AF1833E6AC0074911E /* FAAppDelegate.m in Sources */,
 				CEDAC6B51833E6AC0074911E /* FAViewController.m in Sources */,
 			);
@@ -261,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDAC6CA1833E6AD0074911E /* FileAppTests.m in Sources */,
+				CEDAC6D61834069D0074911E /* FAMyDocument.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
